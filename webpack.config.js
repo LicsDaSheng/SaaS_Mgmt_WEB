@@ -1,6 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
-var CSS_PATH = path.resolve(__dirname, 'css');
+
 
 var options = {
   style: true,
@@ -15,6 +15,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'build'),
+        publicPath: '/',
         filename: '[name].js'
     },
     //fix problem http://stackoverflow.com/questions/28519287/what-does-only-a-reactowner-can-have-refs-mean#
