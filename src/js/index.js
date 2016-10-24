@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'antd';
-import {Rate} from 'antd';
+import MainContainer from './components/container/MainContainer';
+
 
 ReactDOM.render(
-  <div>
-    <h1>SaaS管理台</h1>
-    <Rate/>
- 	<Button type="primary" size="large">Large</Button>
-  </div>,
+
+    <MainContainer/>,
+
   document.getElementById('app')
 );
