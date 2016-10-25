@@ -48,7 +48,6 @@ module.exports = {
         // new webpack.optimize.UglifyJsPlugin({minimize: true}),
         // new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js'),
         new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin()
-        
+        new webpack.NoErrorsPlugin()        
     ]
 };
